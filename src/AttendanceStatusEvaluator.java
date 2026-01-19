@@ -5,11 +5,11 @@ public class AttendanceStatusEvaluator{
     System.out.println();
     int Attendance = sc.nextInt();
     if(Attendance<60){
-      System.out.println("Poor");
+      System.out.print("Poor");
     }else if (Attendance>=60&&Attendance<=85){
-      System.out.println("Satisfactory");
+      System.out.print("Satisfactory");
     }else if (Attendance>85){
-      System.out.println("Excellent");
+      System.out.print("Excellent");
     }
   }
 }
