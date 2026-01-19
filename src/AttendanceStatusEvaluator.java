@@ -1,6 +1,6 @@
 import java.util.Scanner;
-public class AttendanceStatusEvaluator {
-  public static void main(String[] args) {
+public class AttendanceStatusEvaluator{
+  public static void main(String[] args){
     Scanner sc = new Scanner(System.in);
     System.out.println();
     int Attendance = sc.nextInt();
