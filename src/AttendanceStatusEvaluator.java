@@ -12,5 +12,4 @@ public class AttendanceStatusEvaluator {
       System.out.println("Excellent");
     }
   }
-  sc.close();
 }
