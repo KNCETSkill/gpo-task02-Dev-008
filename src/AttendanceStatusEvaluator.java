@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class AttendanceStatusEvaluator {
   public static void main(String[] args) {
     Scanner s = new Scanner(System.in);
-    System.out.print("Enter The Attendance: ");
+    System.out.println("Enter The Attendance: ");
     int Attendance = s.nextInt();
     if(Attendance < 60){
       System.out.println("poor");
